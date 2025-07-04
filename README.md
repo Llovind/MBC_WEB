@@ -43,7 +43,7 @@ Situs Ini Dibangun Sebagai Tugas Technical Test Rekruitasi MBC Laboratory Divisi
 1. **Clone repo:**
 
 ```bash
-git clone https://github.com/Llovind/mbc-laboratory-website.git
+git clone https://github.com/Llovind/MBC_WEB.git
 cd mbc-laboratory-website
 ```
 
