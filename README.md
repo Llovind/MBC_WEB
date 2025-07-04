@@ -1,12 +1,11 @@
 # 🌐 MBC Laboratory Web
 
-Situs resmi MBC Laboratory — pusat pengembangan teknologi di bidang **Cybersecurity**, **Big Data**, **Game Technology**, dan **GIS**. Website ini dibangun dengan teknologi web modern dan terintegrasi dengan backend Node.js + Express untuk pengiriman form kontak melalui EmailJS.
-
+Situs Ini Dibangun Sebagai Tugas Technical Test Rekruitasi MBC Laboratory Divisi Cyber Security
 ---
 
 ## 🚀 Fitur Utama
 
-- Tampilan responsif & modern (HTML, CSS, JS + AOS animation)
+- Tampilan responsif (HTML, CSS, JS + AOS animation)
 - Navigasi navbar yang stylish dan adaptif
 - Hero section dengan highlight divisi utama
 - Penjabaran visi dan misi laboratorium
@@ -29,7 +28,7 @@ Situs resmi MBC Laboratory — pusat pengembangan teknologi di bidang **Cybersec
 │   |── js/
 |   |    |_script.js 
 |   |__ assets
-|   |    |_(foto yang dibutuhkan)  
+|        |_(foto yang dibutuhkan)  
 |
 ├── server.js
 ├── .env
@@ -45,7 +44,7 @@ Situs resmi MBC Laboratory — pusat pengembangan teknologi di bidang **Cybersec
 1. **Clone repo:**
 
 ```bash
-git clone https://github.com/namamu/mbc-laboratory-website.git
+git clone https://github.com/Llovind/mbc-laboratory-website.git
 cd mbc-laboratory-website
 ```
 
@@ -76,22 +75,17 @@ node server.js
 
 - Form kontak menggunakan `POST` dan dikirim ke endpoint `/send-email`.
 - EmailJS digunakan di sisi backend (server.js) dengan environment variable.
-- Pastikan kredensial EmailJS valid dan `.env` sudah diisi dengan benar.
 
 ---
 
 ## 🌍 Deployment
 
-Project ini bisa dideploy dengan:
+Project ini dideploy menggunakan:
 
 - **Vercel** (frontend)
-- **Render / Railway / Cyclic** (backend Node.js)
+- **Railway** (backend Node.js)
 
-⚠️ Untuk deployment di Vercel:
-- Tambahkan variabel environment langsung di dashboard (Settings > Environment Variables)
-- Jangan upload file `.env` ke GitHub demi keamanan.
 
----
 
 ---
 
@@ -103,14 +97,10 @@ Project ini bisa dideploy dengan:
 
 ---
 
-## 📄 Lisensi
 
-MIT License © 2025 MBC Laboratory
-
----
 
 ## 📬 Kontak
 
 📍 Telkom University, Bandung  
 📧 info@mbclaboratory.com  
-🌐 https://mbclaboratory.vercel.app (contoh)
+🌐 https://mbc-web-lovind.vercel.app/
