@@ -27,8 +27,8 @@ app.use(bodyParser.json());
 
 // Route untuk halaman utama
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
-});
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  });
 
 app.post('/send', async (req, res) => {
   const { name, email, message } = req.body;
